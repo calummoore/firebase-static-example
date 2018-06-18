@@ -8,10 +8,6 @@
         "value" : "max-age=60"
       }]
     }],
-    "rewrites": [ {
-      "source": "/:url*",
-      "destination": "/url:*/index.html",
-    }],
     "ignore": [
       "**/*.js.map",
       "**/*.css.map"
